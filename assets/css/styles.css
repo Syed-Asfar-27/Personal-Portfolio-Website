@@ -462,6 +462,7 @@ body.dark-theme {
   width: 40px;
 }
 
+
 .skills__name{
   font-size: var(--small-font-size);
   margin-bottom: .25rem;
@@ -608,8 +609,8 @@ body.dark-theme {
 
 
 
-/*=============== PROJECTS ===============*/
-/* .projects__container{
+/* =============== PROJECTS =============== */
+.projects__container{
   overflow: initial;
 }
 .projects__content{
@@ -653,7 +654,7 @@ body.dark-theme {
 
 
 /* Swiper class */
-/* .projects__container .swiper-button-prev::after,
+.projects__container .swiper-button-prev::after,
 .projects__container .swiper-button-next::after{
   content: '' ;
 }
@@ -691,7 +692,7 @@ body.dark-theme {
 
 .projects__container .swiper-pagination-bullet-active{
   background-color: var(--title-color);
-}  */
+} 
 
 .btn{
   color: #00abfb;
@@ -700,7 +701,7 @@ body.dark-theme {
 }
 .btn:hover{
   color: #00abfb;
-}
+} 
 
 
 /*=============== ambassador ===============*/
